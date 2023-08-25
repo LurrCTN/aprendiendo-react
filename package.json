@@ -1,0 +1,12 @@
+{
+  "name": "aprendiendo-react",
+  "version": "1.0.0",
+  "description": "este repositorio sera exclusivamente para projectos de react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
