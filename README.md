@@ -20,13 +20,13 @@
     <a href="#index">Indice</a>
   </li>
   <li>
-    <a href="#1rsProyect">Primer Projecto</a>
+    <a href="#1rsProject">Primer Proyecto</a>
   </li>
 </ul>
 
 <article>
   <section>
-    <h3 id="1rsProyect">00-hola-mundo</h3>
+    <h3 id="1rsProject">00-hola-mundo</h3>
     <p>
       En esta primera parte se nos introduce a React, contandonos su historia. Conocemos las herramientas que hacen a React lo que es, JSX, Babel, SWC. Empezamos a ver recursos como useState, renderizado condicional, eventos y eventHandlers.
     </p>
