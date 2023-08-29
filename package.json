@@ -11,8 +11,5 @@
   "license": "ISC",
   "devDependencies": {
     "standard": "^17.1.0"
-  },
-  "esLintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
   }
 }
