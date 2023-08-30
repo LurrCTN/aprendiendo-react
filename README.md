@@ -23,10 +23,10 @@
     <a href="#1rsProject">Primer Proyecto</a>
   </li>
   <li>
-    <a href="#2ndProject">Primer Proyecto</a>
+    <a href="#2ndProject">Segundo Proyecto</a>
   </li>
   <li>
-    <a href="#3thProject">Primer Proyecto</a>
+    <a href="#3thProject">Tercer Proyecto</a>
   </li>
 </ul>
 
