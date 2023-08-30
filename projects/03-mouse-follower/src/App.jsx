@@ -9,8 +9,7 @@ const FollowMouse = () => {
     const handleMove = (event) =>{
       const { clientX, clientY } = event
       const mouseFollower = document.getElementById("mouseFollower")
-      const mainPosition = document.getElementById('app').getBoundingClientRect()
-      const { left, right, top, bottom } = mainPosition
+      const { left, right, top, bottom } = document.getElementById('app').getBoundingClientRect()
       const circleHeight = 20
       const circleWidth = 20
 
