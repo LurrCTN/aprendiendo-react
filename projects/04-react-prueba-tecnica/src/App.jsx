@@ -17,10 +17,6 @@ export function App () {
       <button onClick={handleRandomFact}>random fact</button>
       {fact && <p>{fact}</p>}
       {imageUrl && <img src={imageUrl} alt={`imagen extraida del fact: ${fact} usando la primera palabra`} />}
-      <CatImage />
-      <CatImage />
-      <CatImage />
-      <CatImage />
     </main>
   )
 }

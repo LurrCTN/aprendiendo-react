@@ -1,19 +1,20 @@
 // @ts-check
-const { test, expect } = require('@playwright/test');
+import { test, expect } from '@playwright/test'
+
+const LOCALHOST_URL = 'http://localhost:5173'
+const CAT_PREFIX_IMAGE_URL = 'https://cataas.com'
 
 test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  await page.goto(LOCALHOST_URL)
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
-});
+  const text = await page.getByRole('paragraph')
+  const image = await page.getByRole('img')
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  const textContent = await text.textContent()
+  const imageUrl = await image.getAttribute('src')
 
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
-});
+  await expect(textContent).not.toBeNull()
+  await expect(textContent?.length).toBeGreaterThan(0)
+  await expect(imageUrl?.length).toBeGreaterThan(0)
+  await expect(imageUrl?.startsWith(CAT_PREFIX_IMAGE_URL)).toBeTruthy()
+})
