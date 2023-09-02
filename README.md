@@ -28,6 +28,9 @@
   <li>
     <a href="#3thProject">Tercer Proyecto</a>
   </li>
+  <li>
+    <a href="#4thProject">Cuarto Proyecto</a>
+  </li>
 </ul>
 
 <article>
@@ -48,6 +51,12 @@
     <h3 id="3thProject">03-Mouse-follower</h3>
     <p>
       En esta parte vimos mas a fondo el hook useEffect, usandolo para crear un componente el cual sigue el cursor, tambien el componente puede detectar colisiones con otros objetos y cambiar o dejar de seguir al cursor dependiendo de eso
+    </p>
+  </section>
+  <section>
+    <h3 id="4thProject">04-React-prueba-tecnica</h3>
+    <p>
+      En esta parte vimos Custom Hooks, componetizacion, separar la logica de los componentes. Tambien vimos renderizacion de datos de una API
     </p>
   </section>
 </article>
