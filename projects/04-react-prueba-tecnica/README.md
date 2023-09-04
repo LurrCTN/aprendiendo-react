@@ -22,4 +22,4 @@ Recupera un hecho aleatorio de gatos de la primera API y muestra una imagen de u
   - otras dependencias 
 - paginacion infinita
 - boton siguiente fact ✅
-- test end to end
+- test end to end ✅
