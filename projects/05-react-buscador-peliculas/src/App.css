@@ -32,14 +32,14 @@ main {
 
 .movie {
   text-align: center;
-}
 
-.movie h3, .movie p {
-  margin: 0;
-}
+  > p, > h3 {
+    margin: 0;
+  }
 
-.movie img {
-  border-radius: 8px;
-  margin-top: 15px;
-  object-fit: cover;
+  > img {
+    border-radius: 8px;
+    margin-top: 15px;
+    object-fit: cover;
+  }
 }
